@@ -1,0 +1,1 @@
+gcc -Wall -o testget testget.c gftmconfig.h -I../common/ -lpthread ../common/gfsock.c ../common/gfsock.h ../common/gferror.c ../common/gferror.h ../common/gfcompress.c ../common/gfcompress.h ../common/gfchecksum.c ../common/gfchecksum.h ../common/md5.c ../common/md5.h -lz -g -D_FILE_OFFSET_BITS=64
