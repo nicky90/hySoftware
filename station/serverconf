@@ -1,0 +1,4 @@
+# Server Configuration file
+port = 5678     # listening port
+link = 32       # max request handler threads at a time
+timeout = 10    # max socket receive/send timeout (s)

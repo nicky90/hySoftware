@@ -1,0 +1,23 @@
+# Satellite Configuration File Template
+#---------------------------------------------------------------------------
+#[GF01]                    # Satellite Name
+#root     = /data/GF01/    # Data root directory
+#check    = 0              # 1-md5 check, 0-no md5 check
+#compress = 0              # 0-no compress, 1-fast compress, 9-best compress
+#---------------------------------------------------------------------------
+
+[GF01]              
+root     = /home/GFGroup/data/GF01/
+check    = 0
+compress = 0
+
+[GF03]
+root     = /home/GFGroup/data/GF03
+check    = 0
+compress = 1
+
+[GF02]
+root     = /home/GFGroup/data/GF02
+check    = 1
+compress = 9
+

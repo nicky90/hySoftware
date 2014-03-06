@@ -1,0 +1,1 @@
+gcc -Wall -o gfserver -lpthread -lz gfserver.c gfserver.h ../gfcompress.c ../gfcompress.h ../gfchecksum.c ../gfchecksum.h ../md5.c ../md5.h ../gfsock.h ../gfsock.c ../gferror.h ../gferror.c gf_req_handler.c gfconfig.h gfconfig.c ../gfsignal.c ../gfsignal.h -g
